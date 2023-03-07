@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: left;
+    width: 23%;
+    background-color: bisque;
+}
