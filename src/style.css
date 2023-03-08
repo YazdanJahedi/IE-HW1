@@ -8,14 +8,14 @@ body {
 
 #sidebar {
     float: left;
+    /*
     min-width: 150px;
     max-width: 330px;
+    */
     width: 23%;
     background-color: white;
     padding-left: 2%;
     padding-right: 3%;
-    margin-left: 1px;
-    margin-right: 2%;
 }
 
 #sidebar_profile{
@@ -61,7 +61,25 @@ hr {
     margin-right: 10%;
 }
 
-#main {
-    background-color: gray;
+#intro {
     float: right;
+    width: 70%; 
+    margin-left: 1%;
+    border: solid 2px;
+    background-color: white;
+    padding: 2%;
+    height:fit-content;
 }
+
+#intro_pic{
+    float: right;
+    width: 20%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.intro_text {
+    float: left;
+    width: 60%;
+    border: solid 1px;
+}       
