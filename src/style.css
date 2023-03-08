@@ -61,25 +61,32 @@ hr {
     margin-right: 10%;
 }
 
-#intro {
+#main {
+    display: block;
     float: right;
-    width: 70%; 
+    width: 75%; 
     margin-left: 1%;
-    border: solid 2px;
+    border: blue solid 2px;
+}
+
+#intro {
+    display: inline-flex;
+    border: solid 2px red;
     background-color: white;
     padding: 2%;
-    height:fit-content;
+    height:auto;
 }
 
 #intro_pic{
     float: right;
-    width: 20%;
-    margin-top: 0px;
-    padding-top: 0px;
+    width: 40%;
+    max-width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
-.intro_text {
+#intro_text {
     float: left;
-    width: 60%;
+    width: fit-content;
     border: solid 1px;
 }       
