@@ -102,6 +102,7 @@ hr {
 }
 
 .item {
+    display: inline-flex;
     width: 32.5%;
     background-color: white;
     margin: 1px;
