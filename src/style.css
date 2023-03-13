@@ -67,6 +67,7 @@ hr {
     width: 75%; 
     margin-left: 1%;
     border: blue solid 2px;
+    padding: 4px;
 }
 
 #intro {
@@ -91,6 +92,11 @@ hr {
     border: solid 1px;
 }       
 
+#services {
+    border: 1px solid black;
+    padding: 4px;
+}
+
 #service_items{
     width: 100%;
 }
@@ -101,4 +107,9 @@ hr {
     width: 32.5%;
     background-color: white;
     margin: 1px;
+}
+
+
+#education_items {
+    background-color: white;
 }
