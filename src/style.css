@@ -102,14 +102,33 @@ hr {
 }
 
 .item {
-    display: inline-flex;
-
     width: 32.5%;
     background-color: white;
     margin: 1px;
 }
 
 
-#education_items {
+#education {
+    border: green 1px solid;
+}
+
+#education_items_container {
+    height: auto;
     background-color: white;
+    border: brown solid 2px;
+    width: 100%;
+}
+
+.education_item {
+    display: inline-block;
+}
+
+.left_side_note {
+    float: left;
+    width: 35%;
+}
+
+.right_side_note{
+    float: right;
+    width: 60%;
 }
