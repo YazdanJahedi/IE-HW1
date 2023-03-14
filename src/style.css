@@ -181,25 +181,46 @@ body {
 
 
 
-/* */
+/* ---------- SERVICES ---------- */
 
 
 #services {
-    border: 1px solid black;
-    padding: 4px;
+    border: 3px solid red;
+    text-align: center;
+}
+#services h2{
+    margin: 5% auto 3% auto;
+    font-size: 2.5vw;
+}
+
+#services p {
+    margin: 0% 20% 5% 20%;
+    font-size: 1.2vw;
+    color: #767676;
+
 }
 
 #service_items{
     width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto;
 }
 
 .item {
-    display: inline-flex;
-    width: 32.5%;
+    margin: 5%;
     background-color: white;
     margin: 1px;
+    text-align: center;
 }
 
+
+.item img{
+    width: 20%;
+}
+
+
+/* */ 
 
 #education {
     border: green 1px solid;
