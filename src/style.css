@@ -124,38 +124,65 @@ body {
 
 /* ~~~~~~~~~~  ---------- MAIN ----------  ~~~~~~~~~~ */
 
-/* ---------- INTRO ---------- */
-
 #main {
-    display: block;
     float: right;
-    width: 75%; 
-    margin-left: 1%;
+    width: 74%; 
+    margin: 0% 1% 0% 1%;
     border: blue solid 2px;
-    padding: 4px;
 }
+
+/* ---------- INTRO ---------- */
 
 #intro {
     display: inline-flex;
-    border: solid 2px red;
     background-color: white;
-    padding: 2%;
     height:auto;
+    width: 100%;
 }
 
 #intro_pic{
     float: right;
-    width: 40%;
+    width: 35%;
     max-width: 100%;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    margin: 1% 5% 0% 1%;
 }
 
 #intro_text {
     float: left;
-    width: fit-content;
-    border: solid 1px;
+    width: 63%;
+    padding: 5% 1% 5% 5%;
 }       
+
+#intro_text h1 {
+    font-size: 3.25vw;
+    margin-top: 15%;
+}
+
+#intro_text p{
+    font-size: 1.5vw;
+    color: #767676;
+    margin-top: 10%;
+    margin-bottom: 12.5%;
+}
+
+#hire_me {
+    font-size: 1.4vw;
+    padding: 3% 5% 3% 5%;
+    border-radius: 10px;
+}
+
+#hire_me img{
+    width: 2.5%;
+}
+
+#front_end_text {
+    color: #FFB400;
+}
+
+
+
+/* */
+
 
 #services {
     border: 1px solid black;
