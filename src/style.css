@@ -128,7 +128,6 @@ body {
     float: right;
     width: 74%; 
     margin: 0% 1% 0% 1%;
-    border: blue solid 2px;
 }
 
 /* ---------- INTRO ---------- */
@@ -239,21 +238,32 @@ body {
     font-size: 1vw !important;
     font-weight: 900;
 }
-/* */ 
 
-#education {
-    border: green 1px solid;
+/* ---------- EDUCATIONS ---------- */
+
+.education-history h2{
+    text-align: center;
+    margin: 7% auto 3% auto;
+    font-size: 2.5vw;
 }
 
-#education_items_container {
+.education-history p {
+    text-align: center;
+    margin: 0% 20% 5% 20%;
+    font-size: 1.2vw;
+    color: #767676;
+
+}
+
+.line_items_container {
     height: auto;
     background-color: white;
-    border: brown solid 2px;
     width: 100%;
 }
 
-.education_item {
+.line_item {
     display: inline-block;
+    padding: 3%;
 }
 
 .left_side_note {
@@ -264,4 +274,9 @@ body {
 .right_side_note{
     float: right;
     width: 60%;
+}
+
+.line_items_container hr {
+    margin: 1% 3%;
+    border-color: #F0F0F6;
 }
