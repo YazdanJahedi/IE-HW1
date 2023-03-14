@@ -185,9 +185,9 @@ body {
 
 
 #services {
-    border: 3px solid red;
     text-align: center;
 }
+
 #services h2{
     margin: 5% auto 3% auto;
     font-size: 2.5vw;
@@ -203,8 +203,9 @@ body {
 #service_items{
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto auto ;
-    grid-template-rows: auto;
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 cols with same size */
+    column-gap: 1%;
+    row-gap: 3%;
 }
 
 .item {
@@ -212,14 +213,32 @@ body {
     background-color: white;
     margin: 1px;
     text-align: center;
+    border-radius: 5px;
 }
-
 
 .item img{
     width: 20%;
+    margin: 7% auto 7% auto;
 }
 
+.item_title{
+    color: black !important;
+    font-size: 1.5vw !important;
+}
 
+.item_desc {
+    margin: 5% 3% 7% 3%  !important;
+}
+
+#adv {
+    margin-top: 10% !important;
+}
+
+#order_text {
+    color: #FFB400 !important;
+    font-size: 1vw !important;
+    font-weight: 900;
+}
 /* */ 
 
 #education {
