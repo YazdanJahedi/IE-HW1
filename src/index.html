@@ -12,15 +12,19 @@
         <div id="sidebar">
             <div id="sidebar_p1">
                 <div>
-                    <img id="sidebar_profile" src="./assets/Profile.jpg" alt="profile image">
+                    <img id="sidebar_profile_img" src="./assets/sidebar/Profile.jpg" alt="profile img">
+                    <img id="status_img" src="./assets/sidebar/Available.png" alt="status">
                 </div>
-                <p>Yazdan Jahedi</p>
+
+                <p id="full_name">Yazdan Jahedi</p>
                 <p>Front-End Developer</p>
+
                 <div>
                     <img class="social_pic" src="./assets/social/facebook.png" alt="facebook">
                     <img class="social_pic" src="./assets/social/instagram.png" alt="instagram">
                     <img class="social_pic" src="./assets/social/twitter.png" alt="twitter">
                     <img class="social_pic" src="./assets/social/linkedin.png" alt="linkedin">
+                    <img class="social_pic" src="./assets/social/youtube.png" alt="youtube">
                 </div>
             </div>
 
@@ -28,9 +32,9 @@
 
             <div id="sidebar_p2">    
                 <p><span class="highlight">Age:</span> <span class="filled_ans">24</span></p>
-                <p></p><span class="highlight">Residence:</span> <span class="filled_ans">BD</span></p>
-                <p></p><span class="highlight">Freelance:</span> <span class="filled_ans">Available</span></p>
-                <p></p><span class="highlight">Address:</span> <address class="filled_ans">Tehran, Iran</address></p>
+                <p><span class="highlight">Residence:</span> <span class="filled_ans">BD</span></p>
+                <p><span class="highlight">Freelance:</span> <span class="filled_ans" id="avail">Available</span></p>
+                <p><span class="highlight">Address:</span> <span class="filled_ans">Tehran, Iran</span></p>
             </div>
 
             <hr>
@@ -46,9 +50,9 @@
 
             <div id="sidebar_p4">
                 <h3>Contact Information</h3>
-                <p><span>Email</span> <a class="filled_ans" href="mailto:yzdn.jt@gmail.com">yzdn.jt@gmail.com</a></p>  
-                <p><span>Phone</span> <span class="filled_ans">+98 9217791095</span></p>   
-                <p><span>Telegram</span> <a class="filled_ans" href="t.me/|YAZDAN|">@|YAZDAN|</a></p>   
+                <p><span>Email</span> <a class="filled_ans" href="mailto:yzdn.jt@gmail.com">test@mail.com</a></p>  
+                <p><span>Phone</span> <span class="filled_ans">+98 9217791111</span></p>   
+                <p><span>Telegram</span> <a class="filled_ans" href="t.me/|YAZDAN|">@Test</a></p>   
             </div>
 
             <hr>
@@ -56,29 +60,45 @@
             <div id="sidebar_p5">
                 <h3>Skills</h3>
                 <ul>
-                    <li>skill 1</li>
-                    <li>skill 2</li>
-                    <li>skill 3</li>
-                    <li>skill 4</li>
+                    <div class="list_line">
+                        <img class="bullet" src="./assets/sidebar/bullet.png" alt="bullet">
+                        <li>Bootstrap, Materialize</li>
+                    </div>
+                    <div  class="list_line">
+                        <img class="bullet" src="./assets/sidebar/bullet.png" alt="bullet">
+                        <li>Stylus, Sass, Less</li>
+                    </div>
+                    <div class="list_line">
+                        <img class="bullet" src="./assets/sidebar/bullet.png" alt="bullet">
+                        <li>Glup, Grunt</li>
+                    </div>
+                    <div class="list_line">
+                        <img class="bullet" src="./assets/sidebar/bullet.png" alt="bullet">
+                        <li>Git knowledge</li>
+                    </div>
                 </ul>
             </div>
 
             <hr>
 
             <div id="sidebar_p6">
-                <div id="download_CV">
+                <div id="download_CV"download_CV>
                     <span>Download CV</span>
-                    <img src="./assets/Download_icon.png" alt="download_icon">
+                    <img src="./assets/sidebar/Download_icon.png" alt="download_icon">
                 </div>
             </div>
         </div>
 
+
         <div id="main">
             <div id="intro">
                     <div id="intro_text">
-                        <h1>I'm Yazdan Jahedi <br> Front-End Developer</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda deserunt, repudiandae obcaecati quaerat commodi rem nobis quod ratione architecto saepe perferendis exercitationem repellendus earum nulla unde quo, numquam laudantium cumque?</p>
-                        <p class="highlight" >HIRE ME</p>
+                        <h1>I'm Yazdan Jahedi <br/> <span id="front_end_text">Front - End</span> Developer</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur laborum unde officiis  Placeat modi beatae totam, est eveniet omnis unde nemo ducimus, architecto ? In aperiam quis beatae illum?</p>
+                        <span class="highlight" id="hire_me">
+                            <span>HIRE ME</span>
+                            <img src="./assets/intro/Vector.png" alt="vector">
+                        </span>
             
                     </div>
                     <img id="intro_pic" src="./assets/intro/your_image.png" alt="intro_pic">
@@ -90,28 +110,52 @@
                 <h2>My Services</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem nam ratione obcaecati ad, labore quasi ullam delectus voluptate officia temporibus nulla? Ratione ab tempore, necessitatibus qui molestias ea natus perferendis.</p>
                 <div id="service_items">
-                    <div class="item">Web Development</div>
-                    <div class="item">UI/UX Design</div>
-                    <div class="item">Sound Design</div>
-             
-                    <div class="item">Game Design</div>
-                    <div class="item">Photography</div>
-                    <div class="item">Advertising</div>
+                    <div class="item">
+                        <img src="./assets/services/coding.png" alt="coding">
+                        <p class="item_title">Web Development</p>
+                        <p class="item_desc">Blog, E-Commerce</p>
+                    </div>
+                    <div class="item">
+                        <img src="./assets/services/uiux.png" alt="ui/ux">
+                        <p class="item_title">UI/UX Design</p>
+                        <p class="item_desc">Mobile App, Website Design</p>
+                    </div>
+                    <div class="item">
+                        <img src="./assets/services/microphone.png" alt="microphone">
+                        <p class="item_title">Sound Design</p>
+                        <p class="item_desc">Voice Over, Beat Making</p>
+                    </div>
+                    <div class="item">
+                        <img src="./assets/services/game.png" alt="gaming">
+                        <p class="item_title">Game Design</p>
+                        <p class="item_desc">Character Design, Props & Objects</p>
+                    </div>
+                    <div class="item">
+                        <img src="./assets/services/photographer.png" alt="photography">
+                        <p class="item_title">Photography</p>
+                        <p class="item_desc">Protrait, Procutct Photography</p>
+                    </div>
+                    <div class="item">
+                        <p id="adv" class="item_title">Advertising</p>
+                        <p class="item_desc">Lorem ipsum, dolor Quibusdam vel eligendi maxime sunt veritatis consequuntur?</p>
+                        <p id="order_text">ORDER NOW ></p>
+                    </div>
 
                 </div>
             </div>
             
-            <div id="education">
+            <div class="education-history">
                 <h2>Education</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, numquam quam! Facere consequuntur recusandae culpa error quo labore debitis iure maiores blanditiis asperiores aliquid, repudiandae ex ratione provident perspiciatis odio!</p>
-                <div id="education_items_container">
-                    <div id="education_item_1" class="education_item">
+                <div class="line_items_container">
+                    <div class="line_item">
                         <div class="left_side_note">
                             <h3>University of Shahid Beheshti</h3>
-                            <span>Student</span> <span>2/2/2002</span>
+                            <span>Student</span> <span class="highlight date">2/2/2002</span>
                         </div>
                     
                         <div class="right_side_note">
+                            <h3>Certification Of Web Training</h3>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quod voluptas voluptatibus ea molestias optio atque reiciendis iste consequuntur cumque sit impedit sed, saepe expedita totam, recusandae, rem excepturi corrupti.
                         </div>
                     </div>
@@ -119,26 +163,28 @@
                     <hr/>
 
 
-                    <div id="education_item_2" class="education_item">
+                    <div class="line_item">
                         <div class="left_side_note">
                             <h3>University of ANN</h3>
-                            <span>Student</span> <span>2/2/2002</span>
+                            <span>Student</span> <span class="highlight date">2/2/2002</span>
                         </div>
                     
                         <div class="right_side_note">
+                            <h3>Certification Of Web Training</h3>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quod voluptas voluptatibus ea molestias optio atque reiciendis iste consequuntur cumque sit impedit sed, saepe expedita totam, recusandae, rem excepturi corrupti.
                         </div>
                     </div>
 
                     <hr/>
 
-                    <div id="education_item_3" class="education_item">
+                    <div class="line_item">
                         <div class="left_side_note">
                             <h3>University of ANN</h3>
-                            <span>Student</span> <span>2/2/2002</span>
+                            <span>Student</span> <span class="highlight date">2/2/2002</span>
                         </div>
                     
                         <div class="right_side_note">
+                            <h3>Certification Of Web Training</h3>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quod voluptas voluptatibus ea molestias optio atque reiciendis iste consequuntur cumque sit impedit sed, saepe expedita totam, recusandae, rem excepturi corrupti.
                         </div>
                     </div>
