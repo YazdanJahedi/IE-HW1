@@ -1,12 +1,14 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
     background-color: #F0F0F6;
 }
 
-/*---------- SIDE_BAR ----------*/
+/* ---------- SIDE_BAR ---------- */
 
 #sidebar {
     float: left;
@@ -56,6 +58,21 @@ body {
     font-size: 1.5vw;
 }
 
+.bullet {
+    width: 6%;
+    margin: 2px 4%;
+}
+
+.list_line {
+    display: flex;
+    margin: 0px;
+}
+
+#sidebar li{
+    list-style-type: none;
+    font-size: 1.2vw;
+}
+
 #sidebar_p1{
     text-align: center;
 }
@@ -82,6 +99,9 @@ hr {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+
+/* ---------- MAIN ---------- */
 
 #main {
     display: block;
