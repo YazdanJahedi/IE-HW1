@@ -23,6 +23,10 @@ body {
     padding-right: 3%;
 }
 
+#profile_image_container {
+    position: relative;
+}
+
 #sidebar_profile_img{
     max-width: 100%;
     width: 60%;
@@ -32,10 +36,15 @@ body {
     margin-top: 20%;
     margin-bottom: 10%;
     border-radius: 50%; /* make img circle*/
+    z-index: 1;
 }
 
 #status_img {
-    /* TODO */
+    position: absolute;
+    width: 17%;
+    top: 72%;
+    left: 64%;
+    z-index: 3;
 }
 
 .social_pic{
