@@ -134,7 +134,18 @@ body {
 
 #intro {
     display: inline-flex;
-    background-color: white;
+    background: 
+        url(./assets/intro/shapes/Polygon.png) no-repeat,
+        url(./assets/intro/shapes/Ellipse1.png) no-repeat,
+        url(./assets/intro/shapes/Ellipse2.png) no-repeat,
+        url(./assets/intro/shapes/Rectangle1.png) no-repeat,
+        url(./assets/intro/shapes/Rectangle2.png) no-repeat,
+        url(./assets/intro/shapes/Ellipse1.png) no-repeat,
+        url(./assets/intro/shapes/Ellipse2.png) no-repeat,
+        white;
+    background-size: 1.5%, 2%, 2%, 2.5%, 2%, 2%, 2%;
+    background-position-x: 96%, 9% , 58%, 94%, 40%, 53%, 5% ;
+    background-position-y: 95%, 92%, 85%, 20%, 75%, 13%, 9% ;
     height:auto;
     width: 100%;
 }
